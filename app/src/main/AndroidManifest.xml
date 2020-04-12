@@ -11,10 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.NewsDetailActivity"
-            android:parentActivityName=".ui.MainActivity"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout"></activity>
-        <activity android:name=".ui.MainActivity"
+        <activity android:name=".ui.WebActivity"></activity>
+        <activity
+            android:name=".ui.NewsDetailActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout"
+            android:parentActivityName=".ui.MainActivity" />
+        <activity
+            android:name=".ui.MainActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

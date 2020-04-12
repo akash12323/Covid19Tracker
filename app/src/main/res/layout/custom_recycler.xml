@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:text="TOTAL"
             android:textSize="15sp"
-            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
             android:textStyle="bold"
             android:textColor="@android:color/black"
             android:layout_gravity="center_horizontal"
@@ -73,7 +73,7 @@
             android:layout_gravity="center_horizontal"
             android:textSize="15sp"
             android:textStyle="bold"
-            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
             android:textColor="@android:color/holo_blue_dark"/>
 
 
