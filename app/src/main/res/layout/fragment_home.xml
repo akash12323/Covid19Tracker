@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context=".ui.fragment.HomeFragment">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:fitsSystemWindows="true">
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <ImageView
+            android:id="@+id/backdrop"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:fitsSystemWindows="true"
+            android:scaleType="centerCrop"
+            app:layout_collapseMode="parallax"
+            android:src="@drawable/covid2"
+            android:transitionName="img"
+            android:background="@color/colorImage"
+            tools:ignore="UnusedAttribute" />
+
+        <FrameLayout
+            app:layout_anchor="@+id/appbar"
+            android:layout_marginTop="200dp"
+            app:behavior_autoHide="true"
+            android:adjustViewBounds="true"
+            app:layout_anchorGravity="right|end|bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/bg2">
+
+                        <FrameLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp">
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/confirmed"
+                                android:layout_marginStart="80dp"
+                                android:layout_marginTop="40dp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Confirmed"
+                                android:textSize="20sp"
+                                android:gravity="center"/>
+                            <TextView
+                                android:id="@+id/confirmed"
+                                android:textColor="@android:color/white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:textSize="20sp"
+                                android:textStyle="italic|bold"
+                                android:layout_marginTop="30dp"/>
+                        </FrameLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/bg1">
+
+                        <FrameLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp">
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/ic_corona_symbol"
+                                android:layout_marginStart="80dp"
+                                android:layout_marginTop="40dp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Active"
+                                android:textSize="20sp"
+                                android:gravity="center"/>
+                            <TextView
+                                android:id="@+id/active"
+                                android:textColor="@android:color/white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:textSize="20sp"
+                                android:textStyle="italic|bold"
+                                android:layout_marginTop="30dp"/>
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/bg1">
+
+                        <FrameLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp">
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/ic_corona_symbol"
+                                android:layout_marginStart="80dp"
+                                android:layout_marginTop="40dp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Recovered"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                />
+                            <TextView
+                                android:id="@+id/recovered"
+                                android:textColor="@android:color/white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:textSize="20sp"
+                                android:textStyle="italic|bold"
+                                android:layout_marginTop="30dp"/>
+                        </FrameLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/bg2">
+
+                        <FrameLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp">
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/confirmed"
+                                android:layout_marginStart="80dp"
+                                android:layout_marginTop="40dp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Deceased"
+                                android:textSize="20sp"
+                                android:gravity="center"/>
+                            <TextView
+                                android:id="@+id/deceased"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:textSize="20sp"
+                                android:textStyle="italic|bold"
+                                android:textColor="@android:color/white"
+                                android:layout_marginTop="30dp"/>
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/mainRv"
+            android:background="@color/colorImage"
+            android:layout_marginTop="490dp"
+            tools:listitem="@layout/custom_recycler"
+            tools:itemCount="4"/>
+
+    </FrameLayout>
+
+</androidx.core.widget.NestedScrollView>
