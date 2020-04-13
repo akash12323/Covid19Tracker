@@ -10,12 +10,12 @@
         android:icon="@drawable/ic_news"
         />
     <item android:id="@+id/info"
-        android:title="Info"
-        android:icon="@drawable/ic_info"
+        android:title="Contact"
+        android:icon="@drawable/ic_contacts"
         />
     <item android:id="@+id/precautions"
-        android:title="Precautions"
-        android:icon="@drawable/ic_precautions"
+        android:title="Info"
+        android:icon="@drawable/ic_info"
         />
 
 </menu>

@@ -12,8 +12,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.covid19.ui.NewsDetailActivity
 import com.example.covid19.R
 import com.example.covid19.data.api.Client
-import com.example.covid19.ui.adapter.SearchAdapter
-import com.example.newsforum.data.res.search.SearchArticlesItem
+import com.example.covid19.ui.adapter.HealthAdapter
+import com.example.newsforum.data.res.health.HealthArticlesItem
 import kotlinx.android.synthetic.main.fragment_news.*
 import kotlinx.android.synthetic.main.fragment_news.view.*
 import kotlinx.coroutines.Dispatchers
@@ -26,8 +26,8 @@ import kotlinx.coroutines.withContext
  */
 class NewsFragment : Fragment() {
 
-    val searchedlist = arrayListOf<SearchArticlesItem>()
-    val searchadapter = SearchAdapter(searchedlist)
+    val healthlist = arrayListOf<HealthArticlesItem>()
+    val healthadapter = HealthAdapter(healthlist)
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -39,9 +39,9 @@ class NewsFragment : Fragment() {
         view.recyclerView.apply {
             layoutManager = LinearLayoutManager(context,
                 RecyclerView.VERTICAL,false)
-            adapter = searchadapter
+            adapter = healthadapter
         }
-        searchadapter.onItemClick = {
+        healthadapter.onItemClick = {
             val i = Intent(context,
                 NewsDetailActivity::class.java)
             i.putExtra("title",it.title.toString())
@@ -56,12 +56,12 @@ class NewsFragment : Fragment() {
         }
 
         GlobalScope.launch {
-            val response = withContext(Dispatchers.IO){ Client.api.searchNews("covid 19") }
+            val response = withContext(Dispatchers.IO){ Client.api.getHealthNews("in","health") }
 
             if (response.isSuccessful){
                 response.body()?.let {res->
-                    res.articles?.let { searchedlist.addAll(it) }
-                    activity!!.runOnUiThread { searchadapter.notifyDataSetChanged()
+                    res.articles?.let { healthlist.addAll(it) }
+                    activity!!.runOnUiThread { healthadapter.notifyDataSetChanged()
                     ll1.visibility = View.GONE
                     item.visibility = View.VISIBLE
                     }

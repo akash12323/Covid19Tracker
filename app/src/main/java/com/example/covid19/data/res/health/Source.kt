@@ -1,4 +1,4 @@
-package com.example.newsforum.data.res.search
+package com.example.newsforum.data.res.health
 
 import com.google.gson.annotations.SerializedName
 

@@ -1,14 +1,14 @@
-package com.example.newsforum.data.res.search
+package com.example.newsforum.data.res.health
 
 import com.google.gson.annotations.SerializedName
 
-data class SearchArticlesItem(
+data class HealthArticlesItem(
 
 	@field:SerializedName("publishedAt")
 	val publishedAt: String? = null,
 
 	@field:SerializedName("author")
-	val author: String? = null,
+	val author: Any? = null,
 
 	@field:SerializedName("urlToImage")
 	val urlToImage: String? = null,

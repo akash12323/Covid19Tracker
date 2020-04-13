@@ -8,7 +8,7 @@ import com.example.covid19.ui.fragment.ContactFragment
 import com.example.covid19.ui.fragment.InformationFragment
 
 
-class PagerAdapterDiscover(fm : FragmentManager) : FragmentPagerAdapter(fm) {
+class PagerAdapterInfo(fm : FragmentManager) : FragmentPagerAdapter(fm) {
     override fun getItem(position: Int): Fragment {
         return when (position){
             0-> HospitalsFragment()

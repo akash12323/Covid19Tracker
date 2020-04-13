@@ -5,14 +5,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.covid19.R
-import com.example.newsforum.data.res.search.SearchArticlesItem
+import com.example.newsforum.data.res.health.HealthArticlesItem
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.item.view.*
 
-class SearchAdapter(var user:List<SearchArticlesItem>):
-    RecyclerView.Adapter<SearchAdapter.ItemVieHolder>(){
+class HealthAdapter(val user:List<HealthArticlesItem>):
+    RecyclerView.Adapter<HealthAdapter.ItemVieHolder>(){
 
-    var onItemClick:((user: SearchArticlesItem)->Unit)? = null
+    var onItemClick:((user: HealthArticlesItem)->Unit)? = null
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemVieHolder {
         return ItemVieHolder(
@@ -30,9 +30,9 @@ class SearchAdapter(var user:List<SearchArticlesItem>):
         holder.bind(user[position])
     }
     inner class ItemVieHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
-        fun bind(user: SearchArticlesItem){
+        fun bind(user: HealthArticlesItem){
             itemView.apply {
-                author.text = user.author
+                author.text = user.author.toString()
                 publishedAt.text = user.publishedAt
                 title.text = user.title
                 desc.text = user.description
