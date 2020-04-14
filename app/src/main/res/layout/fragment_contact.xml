@@ -29,6 +29,7 @@
                     android:layout_height="wrap_content"
                     android:text="MINISTRY OF HEALTH AND FAMILY WELFARE"
                     android:textSize="22sp"
+                    android:textColor="@android:color/black"
                     android:textStyle="bold"
                     />
                 <LinearLayout
@@ -40,14 +41,14 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@android:color/darker_gray"
                         android:text="Helpline Number :"
+                        android:textColor="@android:color/black"
                         android:textSize="15sp"
                         />
                     <TextView
+                        android:textColor="@android:color/holo_purple"
                         android:id="@+id/tv1"
                         android:layout_width="wrap_content"
-                        android:textColor="@android:color/darker_gray"
                         android:layout_height="wrap_content"
                         android:text="+91-11-23978046"
                         android:textSize="15sp"
@@ -64,16 +65,16 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:textColor="@android:color/darker_gray"
                         android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
                         android:text="Toll Free :"
                         android:textSize="15sp"
                         />
                     <TextView
                         android:layout_width="wrap_content"
+                        android:textColor="@android:color/black"
                         android:layout_height="wrap_content"
                         android:text="1075"
-                        android:textColor="@android:color/darker_gray"
                         android:textSize="15sp"
                         android:layout_marginStart="5dp"
                         />
@@ -88,17 +89,17 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:textColor="@android:color/darker_gray"
                         android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
                         android:text="Helpline Email ID :"
                         android:textSize="15sp"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
                         android:text="ncov2019@gov.in"
                         android:textSize="15sp"
-                        android:textColor="@android:color/darker_gray"
                         android:layout_marginStart="5dp"
                         />
 
@@ -140,6 +141,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="CONTACT INFORMATION"
+                    android:textColor="@android:color/black"
                     android:textSize="22sp"
                     android:textStyle="bold"
                     />
@@ -152,14 +154,14 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@android:color/darker_gray"
+                        android:textColor="@android:color/black"
                         android:text="Covid Smart City Helpline :"
                         android:textSize="15sp"
                         />
                     <TextView
+                        android:textColor="@android:color/holo_purple"
                         android:id="@+id/tv2"
                         android:layout_width="wrap_content"
-                        android:textColor="@android:color/darker_gray"
                         android:layout_height="wrap_content"
                         android:text="011-22307145"
                         android:textSize="15sp"
@@ -176,16 +178,41 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:textColor="@android:color/darker_gray"
                         android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
                         android:text="Covid 19 Helpline :"
                         android:textSize="15sp"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
                         android:text="1075"
-                        android:textColor="@android:color/darker_gray"
+                        android:textSize="15sp"
+                        android:layout_marginStart="5dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:text="Website :"
+                        android:textSize="15sp"
+                        />
+                    <TextView
+                        android:id="@+id/t2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/holo_purple"
+                        android:text="http://health.delhigovt.nic.in/wps/wcm/connect/DoIT_Health/health/home"
                         android:textSize="15sp"
                         android:layout_marginStart="5dp"
                         />

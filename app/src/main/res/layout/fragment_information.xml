@@ -31,6 +31,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:textColor="@android:color/black"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="MINISTRY OF HEALTH AND FAMILY WELFARE"
@@ -46,7 +47,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="@android:color/darker_gray"
+                            android:textColor="@android:color/black"
                             android:text="स्वास्थ्य एवं परिवार कल्याण मंत्रालय"
                             android:textSize="15sp"
                             />
@@ -61,8 +62,8 @@
 
                         <TextView
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/darker_gray"
                             android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
                             android:text="MINISTRY OF HEALTH AND FAMILY WELFARE"
                             android:textSize="15sp"
                             />
@@ -77,7 +78,7 @@
 
                         <TextView
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/darker_gray"
+                            android:textColor="@android:color/black"
                             android:layout_height="wrap_content"
                             android:text="स्वास्थ्य एवं परिवार कल्याण विभाग"
                             android:textSize="15sp"
@@ -93,7 +94,7 @@
 
                         <TextView
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/darker_gray"
+                            android:textColor="@android:color/black"
                             android:layout_height="wrap_content"
                             android:text="DEPARTMENT OF HEALTH AND FAMILY WELFARE"
                             android:textSize="15sp"
@@ -141,6 +142,7 @@
                         android:layout_height="wrap_content"
                         android:text="WHO | COVID-19 PANDEMIC"
                         android:textSize="22sp"
+                        android:textColor="@android:color/black"
                         android:textStyle="bold"
                         />
                     <LinearLayout
@@ -152,15 +154,15 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="@android:color/darker_gray"
+                            android:textColor="@android:color/black"
                             android:text="Latest Updates - "
                             android:textSize="15sp"
                             />
                         <TextView
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/darker_gray"
                             android:layout_height="wrap_content"
                             android:text="Live press conference"
+                            android:textColor="@android:color/black"
                             android:textSize="15sp"
                             android:layout_marginStart="5dp"
                             />
@@ -176,9 +178,9 @@
 
                         <TextView
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/darker_gray"
                             android:layout_height="wrap_content"
                             android:text="@string/who"
+                            android:textColor="@android:color/black"
                             android:textSize="15sp"
                             />
 
@@ -222,6 +224,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
                         android:text="COVID-19 VIRUS OUTBREAK \nWORLDOMETER"
                         android:textSize="22sp"
                         android:textStyle="bold"
@@ -235,8 +238,8 @@
 
                         <TextView
                             android:layout_width="wrap_content"
+                            android:textColor="@android:color/black"
                             android:layout_height="wrap_content"
-                            android:textColor="@android:color/darker_gray"
                             android:text="@string/worldometers"
                             android:textSize="15sp"
                             />

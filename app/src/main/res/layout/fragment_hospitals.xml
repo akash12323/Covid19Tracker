@@ -35,6 +35,7 @@
                         android:layout_height="wrap_content"
                         android:text="Lok Nayak Hospital"
                         android:textSize="22sp"
+                        android:textColor="@android:color/black"
                         android:textStyle="bold"
                         />
                     <LinearLayout
@@ -46,16 +47,17 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="@android:color/darker_gray"
                             android:text="Address :"
+                            android:textColor="@android:color/black"
                             android:textSize="15sp"
                             />
                         <TextView
+                            android:id="@+id/t1"
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/darker_gray"
                             android:layout_height="wrap_content"
                             android:text="Jawahar Lal Nehru Marg, Delhi - 110002"
                             android:textSize="15sp"
+                            android:textColor="@android:color/holo_purple"
                             android:layout_marginStart="5dp"
                             />
 
@@ -69,9 +71,9 @@
 
                         <TextView
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/holo_purple"
                             android:layout_height="wrap_content"
                             android:text="Contact No. :"
+                            android:textColor="@android:color/black"
                             android:textSize="15sp"
                             />
                         <TextView
@@ -108,6 +110,7 @@
                         android:layout_height="wrap_content"
                         android:text="Rajiv Gandhi Super Speciality Hospital"
                         android:textSize="22sp"
+                        android:textColor="@android:color/black"
                         android:textStyle="bold"
                         />
                     <LinearLayout
@@ -119,14 +122,15 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="@android:color/darker_gray"
                             android:text="Address :"
                             android:textSize="15sp"
+                            android:textColor="@android:color/black"
                             />
                         <TextView
+                            android:id="@+id/t2"
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/darker_gray"
                             android:layout_height="wrap_content"
+                            android:textColor="@android:color/holo_purple"
                             android:text="Tahirpur, New Delhi - 110064"
                             android:textSize="15sp"
                             android:layout_marginStart="5dp"
@@ -142,10 +146,10 @@
 
                         <TextView
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/holo_purple"
                             android:layout_height="wrap_content"
                             android:text="Contact No. :"
                             android:textSize="15sp"
+                            android:textColor="@android:color/black"
                             />
                         <TextView
                             android:id="@+id/tv2"
@@ -182,6 +186,7 @@
                         android:text="Guru Tegh Bahadur Hospital"
                         android:textSize="22sp"
                         android:textStyle="bold"
+                        android:textColor="@android:color/black"
                         />
                     <LinearLayout
                         android:layout_marginTop="12dp"
@@ -192,13 +197,14 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="@android:color/darker_gray"
                             android:text="Address :"
+                            android:textColor="@android:color/black"
                             android:textSize="15sp"
                             />
                         <TextView
+                            android:id="@+id/t3"
+                            android:textColor="@android:color/holo_purple"
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/darker_gray"
                             android:layout_height="wrap_content"
                             android:text="Jawahar Lal Nehru Marg, Delhi - 110002"
                             android:textSize="15sp"
@@ -215,10 +221,10 @@
 
                         <TextView
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/holo_purple"
                             android:layout_height="wrap_content"
                             android:text="Contact No. :"
                             android:textSize="15sp"
+                            android:textColor="@android:color/black"
                             />
                         <TextView
                             android:id="@+id/tv3"
@@ -255,6 +261,7 @@
                         android:text="Deen Dayal Upadhyay Hospital"
                         android:textSize="22sp"
                         android:textStyle="bold"
+                        android:textColor="@android:color/black"
                         />
                     <LinearLayout
                         android:layout_marginTop="12dp"
@@ -265,13 +272,14 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="@android:color/darker_gray"
                             android:text="Address :"
+                            android:textColor="@android:color/black"
                             android:textSize="15sp"
                             />
                         <TextView
+                            android:id="@+id/t4"
+                            android:textColor="@android:color/holo_purple"
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/darker_gray"
                             android:layout_height="wrap_content"
                             android:text="Hari Nagar, New Delhi - 110064"
                             android:textSize="15sp"
@@ -288,9 +296,9 @@
 
                         <TextView
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/holo_purple"
                             android:layout_height="wrap_content"
                             android:text="Contact No. :"
+                            android:textColor="@android:color/black"
                             android:textSize="15sp"
                             />
                         <TextView
@@ -327,6 +335,7 @@
                         android:layout_height="wrap_content"
                         android:text="Dr Baba Saheb Ambedkar Hospital"
                         android:textSize="22sp"
+                        android:textColor="@android:color/black"
                         android:textStyle="bold"
                         />
                     <LinearLayout
@@ -338,16 +347,17 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="@android:color/darker_gray"
                             android:text="Address :"
+                            android:textColor="@android:color/black"
                             android:textSize="15sp"
                             />
                         <TextView
+                            android:id="@+id/t5"
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/darker_gray"
                             android:layout_height="wrap_content"
                             android:text="Sector 6, Rohini, New Delhi - 110085"
                             android:textSize="15sp"
+                            android:textColor="@android:color/holo_purple"
                             android:layout_marginStart="5dp"
                             />
 
@@ -361,8 +371,7 @@
 
                         <TextView
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/holo_purple"
-                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"                            android:layout_height="wrap_content"
                             android:text="Contact No. :"
                             android:textSize="15sp"
                             />
@@ -400,6 +409,7 @@
                         android:text="Sir Ganga Ram Kolmet Hospital"
                         android:textSize="22sp"
                         android:textStyle="bold"
+                        android:textColor="@android:color/black"
                         />
                     <LinearLayout
                         android:layout_marginTop="12dp"
@@ -410,13 +420,14 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="@android:color/darker_gray"
                             android:text="Address :"
                             android:textSize="15sp"
+                            android:textColor="@android:color/black"
                             />
                         <TextView
+                            android:id="@+id/t6"
+                            android:textColor="@android:color/holo_purple"
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/darker_gray"
                             android:layout_height="wrap_content"
                             android:text="B 1/1 Nea, Main Pusa Road, Delhi-110085, Near Karol Bagh Metro Station"
                             android:textSize="15sp"
@@ -433,10 +444,10 @@
 
                         <TextView
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/holo_purple"
                             android:layout_height="wrap_content"
                             android:text="Contact No. :"
                             android:textSize="15sp"
+                            android:textColor="@android:color/black"
                             />
                         <TextView
                             android:id="@+id/tv6"
@@ -470,7 +481,8 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Max Hospital"
+                        android:text="Max Super Speciality Hospital"
+                        android:textColor="@android:color/black"
                         android:textSize="22sp"
                         android:textStyle="bold"
                         />
@@ -483,13 +495,14 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="@android:color/darker_gray"
                             android:text="Address :"
+                            android:textColor="@android:color/black"
                             android:textSize="15sp"
                             />
                         <TextView
+                            android:id="@+id/t7"
+                            android:textColor="@android:color/holo_purple"
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/darker_gray"
                             android:layout_height="wrap_content"
                             android:text="1,2, Press Enclave Marg, Saket Institutional Area, Saket, Delhi - 110017"
                             android:textSize="15sp"
@@ -506,9 +519,9 @@
 
                         <TextView
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/holo_purple"
                             android:layout_height="wrap_content"
                             android:text="Contact No. :"
+                            android:textColor="@android:color/black"
                             android:textSize="15sp"
                             />
                         <TextView
@@ -543,8 +556,9 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Apollo Hospital"
+                        android:text="Indraprastha Apollo Hospital"
                         android:textSize="22sp"
+                        android:textColor="@android:color/black"
                         android:textStyle="bold"
                         />
                     <LinearLayout
@@ -556,13 +570,14 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="@android:color/darker_gray"
                             android:text="Address :"
+                            android:textColor="@android:color/black"
                             android:textSize="15sp"
                             />
                         <TextView
+                            android:id="@+id/t8"
+                            android:textColor="@android:color/holo_purple"
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/darker_gray"
                             android:layout_height="wrap_content"
                             android:text="Block J Saket, Delhi - 110017"
                             android:textSize="15sp"
@@ -579,9 +594,9 @@
 
                         <TextView
                             android:layout_width="wrap_content"
-                            android:textColor="@android:color/holo_purple"
                             android:layout_height="wrap_content"
                             android:text="Contact No. :"
+                            android:textColor="@android:color/black"
                             android:textSize="15sp"
                             />
                         <TextView
