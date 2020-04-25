@@ -6,8 +6,16 @@
     <color name="colorTransparent">#00000000</color>
     <color name="colorNavigationBar">#CAEEF3</color>
     <color name="colorImage">#D8EDF1</color>
+    <color name="colorImage1">#E6F2F5</color>
 
     <color name="colorBackground">#f9f9fa</color>
     <color name="colorTextSubtitle">#4e4e4e</color>
     <color name="colorTextTitle">#262626</color>
+
+    <color name="graylight">#fafafa</color>
+    <color name="green">#08CBE4</color>
+    <color name="startblue">#09c6df</color>
+    <color name="endblue">#0bcce6</color>
+    <color name="startgreen">#7FF384</color>
+    <color name="lightgray">#09c6df</color>
 </resources>

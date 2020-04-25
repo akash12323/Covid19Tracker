@@ -6,4 +6,6 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="who">Your questions answered, Travel advice, Situation reports and more related to COVID19 pandemic.</string>
     <string name="worldometers">Live statistics and coronavirus news tracking the number of confirmed cases, recovered patients, and death toll by country due to the COVID19 coronavirus from Wuhan, China. Coronavirus counter with new cases, historical data, and info. Daily charts, graphs, news and updates</string>
+    <string name="open">OPEN</string>
+    <string name="close">CLOSE</string>
 </resources>

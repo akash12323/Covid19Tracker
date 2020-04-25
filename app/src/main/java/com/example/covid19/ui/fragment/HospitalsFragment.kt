@@ -59,15 +59,6 @@ class HospitalsFragment : Fragment() {
         }
 
 
-        view.t5.setOnClickListener {
-            val i = Intent(context, MapsActivity::class.java)
-
-            i.putExtra("lat","28.7148")
-            i.putExtra("lng","77.1136")
-            i.putExtra("title","Dr Baba Saheb Ambedkar Hospital")
-
-            activity?.startActivity(i)
-        }
         view.t1.setOnClickListener {
             val i = Intent(context, MapsActivity::class.java)
 
@@ -101,6 +92,15 @@ class HospitalsFragment : Fragment() {
             i.putExtra("lat","28.6280")
             i.putExtra("lng","77.1121")
             i.putExtra("title","Deen Dayal Upadhayay Hospital")
+
+            activity?.startActivity(i)
+        }
+        view.t5.setOnClickListener {
+            val i = Intent(context, MapsActivity::class.java)
+
+            i.putExtra("lat","28.7148")
+            i.putExtra("lng","77.1136")
+            i.putExtra("title","Dr Baba Saheb Ambedkar Hospital")
 
             activity?.startActivity(i)
         }

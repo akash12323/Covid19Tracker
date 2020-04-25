@@ -3,6 +3,8 @@
     package="com.example.covid19">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -11,7 +13,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.WebActivity"></activity>
+        <activity android:name=".ui.UtilitiesActivity"></activity>
+        <activity android:name=".ui.TestActivity" />
+        <activity android:name=".ui.HelplineActivity" />
+        <activity android:name=".ui.ShopActivity" />
+        <activity android:name=".ui.MapsActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity android:name=".ui.WebActivity" />
         <activity
             android:name=".ui.NewsDetailActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout"
